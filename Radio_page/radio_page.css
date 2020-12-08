@@ -2,6 +2,7 @@
 body {
     background-image: url('../images/texture.png');
 }
+
 #current_block {
     display: inline-block;
     width: 290px;
@@ -18,14 +19,14 @@ body {
     margin: 40px;
 }
 
-
+#currentRow {
+    width: 1000px;
+    margin: auto;
+}
 
 #radio_card {
-    border: 2px solid black;
     margin: 10px;
-    text-align: center;
-    border-radius: 15px;
-    
+    text-align: center;    
 }
 
 #radio_card_2 {
@@ -36,7 +37,6 @@ body {
     padding-top: 20px;
     margin: 15px;
     background-color: #dce1e3;
-
 }
 
 #radio_card_body {
@@ -45,8 +45,9 @@ body {
 }
 
 #radio_image {
-    height: 120px;
-    width: 250px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
 }
 
 #radio_row {
@@ -61,5 +62,4 @@ body {
     font-size: 60px;
     text-shadow: 1px 1px black;
     margin: 40px;
-
 }
